@@ -64,10 +64,10 @@ Promise.then(response=>{
   console.log(emp_arr);
 
 });
-}).catch(handleError)
+}).catch(handleError1)
 }
 
-function handleError(err) {
+function handleError1(err) {
   console.log('Ohh noooo!!');
   console.log(err);
 }
